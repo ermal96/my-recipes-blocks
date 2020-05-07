@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     My Recipes Blocks
  * Plugin URI:      www.ermal.dev
- * Description:     
+ * Description:     My Recipes Block WordPress Plugin
  * Author:          Ermal Vrapi
  * Author URI:      www.ermal.dev
  * Text Domain:     my-recipes-blocks
@@ -16,16 +16,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
-/**
- * Libraries
- */	
-require_once plugin_dir_path( __FILE__ ) . 'library/class-core-blocks.php';
-
-/**
- * Plugin manager
- */
-require_once plugin_dir_path( __FILE__ ) . 'class-my-recipes-blocks-admin-page.php';
 
 /**
  * Block Initializer.
